@@ -301,9 +301,9 @@ https://github.com/theforeman/pulpcore-packaging/blob/rpm/develop/package_manife
 
 <div>
 
-![Copr repo with Pulpcore Nightly](images/pulpcore-nightly-staging.png)
+![Copr repo with Pulpcore Nightly](pulpcore-nightly-staging.png)
 
-![Jenkins Pipeline with Pulpcore Nightly](images/pulpcore-staging-jenkins.png)
+![Jenkins Pipeline with Pulpcore Nightly](pulpcore-staging-jenkins.png)
 
 https://ci.theforeman.org/blue/organizations/jenkins/pulpcore-nightly-rpm-pipeline/
 
@@ -319,7 +319,7 @@ https://copr.fedorainfracloud.org/coprs/g/theforeman/pulpcore-nightly-staging/
 <br><br>
 
 
-![Copr repo with Pulpcore Nightly](images/pulpcore-nightly-staging-scratch.png)
+![Copr repo with Pulpcore Nightly](pulpcore-nightly-staging-scratch.png)
 https://copr.fedorainfracloud.org/coprs/g/theforeman/pulpcore-nightly-staging-scratch-b26856ba-3c9d-5535-9bf7-f474701e8e4c/
 
 </sub>
