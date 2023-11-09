@@ -39,7 +39,7 @@ jobs:
         run: npm i -g playwright-chromium
 
       - name: Build
-        run: slidev build
+        run: slidev build --base=/pulpcon-2023/
 
       - uses: actions/configure-pages@v3
 
