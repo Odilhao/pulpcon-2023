@@ -1,6 +1,7 @@
 ---
 download: true
 # try also 'default' to start simple
+title: 'State of RPM'
 theme: seriph
 #theme: apple-basic
 # random image from a curated Unsplash collection by Anthony
@@ -10,12 +11,10 @@ background: https://source.unsplash.com/collection/94734566/1920x1080
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
-# some information about the slides, markdown enabled
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+author: Odilon Sousa
+selectable: true
+colorSchema: 'dark'
+favicon: 'https://docs.pulpproject.org/en/pulpproject.org_images/pulp_logo_big.png'
 ---
 
 # Pulpcon - 2023
@@ -30,7 +29,7 @@ layout: intro
 
 - Odilon Sousa
   - Senior Software Engineer at Red Hat
-  - Primary working with RPM packaging
+  - Primarily working with RPM packaging
     - Foreman/Katello/Pulp
 
 ---
@@ -108,7 +107,7 @@ timeline
 
 <div>
 
-New packages don't know about setup.py <b>pyproject.toml </b> is the new kid on the block
+New packages don't know about setup.py, <b>pyproject.toml </b> is the new kid on the block
 
 To keep building with only setuptools we had to inject a <b>setup.py</b> in the specfile
 
@@ -232,7 +231,7 @@ set -ex
 
 - Help us during branch for Katello
 - Not build from one older version to one new version
-  - Try to keep up to date with Pulp and branch when necessary for Pulp
+  - Try to keep up to date with Pulp and branch when necessary for Katello
 - Test new releases with Katello development
   - Help identifying possible regression and blockers
 - Automation! Automation! Automation
